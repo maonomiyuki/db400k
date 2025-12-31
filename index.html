@@ -67,6 +67,7 @@
         <img id="img-back" src="./layer_back.png" />
         <img id="img-middle" src="./layer_middle.png" />
         <img id="img-front" src="./layer_front.png" />
+        <img id="img-400k" src="./layer_400k.png" />
       </a-assets>
 
       <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
@@ -74,7 +75,8 @@
       <a-entity mindar-image-target="targetIndex: 0">
         <a-image src="#img-back" position="0 0 0" height="2" width="2"></a-image>
         <a-image src="#img-middle" position="0 0 0.5" height="2" width="2"></a-image>
-        <a-image id="target-layer" src="#img-front" position="0 0 0.8" height="2" width="2"></a-image>
+        <a-image src="#img-front" position="0 0 0.8" height="2" width="2"></a-image>
+        <a-image id="target-layer" src="#img-400k" position="0 0 1.0" height="2" width="2"></a-image>
       </a-entity>
     </a-scene>
 
