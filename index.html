@@ -81,7 +81,7 @@
     </a-scene>
 
     <div id="ui-container">
-      <button id="toggle-button" class="ar-button">Hide Logo</button>
+      <button id="toggle-button" class="ar-button">Message</button>
       <button id="play-button" class="ar-button">🎵 Voice Play</button>
     </div>
     
@@ -113,11 +113,11 @@
 
         if (isVisible) {
           targetLayer.setAttribute('visible', false);
-          toggleBtn.innerText = "Show Logo";
+          toggleBtn.innerText = "Message";
           toggleBtn.style.backgroundColor = "#555";
         } else {
           targetLayer.setAttribute('visible', true);
-          toggleBtn.innerText = "Hide Logo";
+          toggleBtn.innerText = "Message";
           toggleBtn.style.backgroundColor = "#2196F3";
         }
       });
